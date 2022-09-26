@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="StaffListCollectionViewCell" customModule="GustoBreadAdminApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="183"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="473" height="183"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXh-NO-kZb">
+                        <rect key="frame" x="5" y="5" width="463" height="173"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bnb-zR-uOR">
+                                <rect key="frame" x="10" y="10" width="443" height="153"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xGu-0v-EnW">
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="153"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B27-92-RD5">
+                                                <rect key="frame" x="8" y="37" width="139" height="89"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="IzP-BW-HEu">
+                                                        <rect key="frame" x="31.5" y="6.5" width="76" height="76"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="76" id="FqZ-66-q9D"/>
+                                                            <constraint firstAttribute="height" constant="76" id="e5p-RM-r2W"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="PrimaryColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="IzP-BW-HEu" firstAttribute="centerY" secondItem="B27-92-RD5" secondAttribute="centerY" id="5Nv-O9-c0t"/>
+                                                    <constraint firstItem="IzP-BW-HEu" firstAttribute="centerX" secondItem="B27-92-RD5" secondAttribute="centerX" id="gb3-Be-EqZ"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OBp-hA-3G3">
+                                        <rect key="frame" x="155" y="0.0" width="288" height="153"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L3I-ew-SHI">
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="10"/>
+                                                <color key="backgroundColor" name="PrimaryColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="10" id="Be2-fZ-9jg"/>
+                                                </constraints>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fmd-S4-2Mu">
+                                                <rect key="frame" x="0.0" y="10" width="288" height="63"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StaffID: 1001" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7y-Nk-y69">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="27.5"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <color key="textColor" name="TextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StaffName: Kyaw Kyaw" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhB-9Z-VvF">
+                                                        <rect key="frame" x="0.0" y="27.5" width="288" height="35.5"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="rhB-9Z-VvF" firstAttribute="height" secondItem="fmd-S4-2Mu" secondAttribute="height" multiplier="0.56" id="OXW-5P-kM1"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eOe-PR-TvF">
+                                                <rect key="frame" x="0.0" y="73" width="288" height="80"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TO-Pg-uef">
+                                                        <rect key="frame" x="8" y="15" width="131" height="31"/>
+                                                        <color key="backgroundColor" name="SecondaryColor"/>
+                                                        <color key="tintColor" name="PrimaryColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="pencil.circle" catalog="system" title="Edit"/>
+                                                        <connections>
+                                                            <action selector="onTabEdit:" destination="gTV-IL-0wX" eventType="touchUpInside" id="EdD-dC-6Tj"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yh-Rc-cDg">
+                                                        <rect key="frame" x="149" y="15" width="131" height="31"/>
+                                                        <color key="backgroundColor" name="PrimaryColor"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Delete"/>
+                                                        <connections>
+                                                            <action selector="onTabDelete:" destination="gTV-IL-0wX" eventType="touchUpInside" id="R6t-eL-MTH"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <edgeInsets key="layoutMargins" top="15" left="8" bottom="15" right="8"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xGu-0v-EnW" firstAttribute="width" secondItem="bnb-zR-uOR" secondAttribute="width" multiplier="0.35" id="wZ7-kx-xct"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="PrimaryColor"/>
+                        <constraints>
+                            <constraint firstItem="bnb-zR-uOR" firstAttribute="leading" secondItem="jXh-NO-kZb" secondAttribute="leading" constant="10" id="G3r-hB-pDQ"/>
+                            <constraint firstItem="bnb-zR-uOR" firstAttribute="top" secondItem="jXh-NO-kZb" secondAttribute="top" constant="10" id="JLf-f5-fXl"/>
+                            <constraint firstAttribute="bottom" secondItem="bnb-zR-uOR" secondAttribute="bottom" constant="10" id="aQr-0F-QPu"/>
+                            <constraint firstAttribute="trailing" secondItem="bnb-zR-uOR" secondAttribute="trailing" constant="10" id="ce0-5v-HXe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jXh-NO-kZb" secondAttribute="bottom" constant="5" id="0AZ-ii-436"/>
+                <constraint firstAttribute="trailing" secondItem="jXh-NO-kZb" secondAttribute="trailing" constant="5" id="GRN-bM-8qn"/>
+                <constraint firstItem="jXh-NO-kZb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="eC8-vI-lbI"/>
+                <constraint firstItem="jXh-NO-kZb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="qDq-1p-D00"/>
+            </constraints>
+            <size key="customSize" width="473" height="183"/>
+            <connections>
+                <outlet property="deleteButton" destination="0yh-Rc-cDg" id="PwQ-f5-roi"/>
+                <outlet property="editButton" destination="3TO-Pg-uef" id="OPn-lX-y4N"/>
+                <outlet property="staffCellEntireView" destination="jXh-NO-kZb" id="qgl-X8-wzV"/>
+                <outlet property="staffID" destination="K7y-Nk-y69" id="ygH-Qk-gKa"/>
+                <outlet property="staffName" destination="rhB-9Z-VvF" id="eH4-ZQ-tXl"/>
+                <outlet property="staffProfile" destination="IzP-BW-HEu" id="TZv-Xf-ECs"/>
+            </connections>
+            <point key="canvasLocation" x="-10.869565217391305" y="74.665178571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image" width="400" height="400"/>
+        <image name="pencil.circle" catalog="system" width="128" height="121"/>
+        <namedColor name="PrimaryColor">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SecondaryColor">
+            <color red="0.075000002980232239" green="0.3880000114440918" blue="0.875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.024000000208616257" green="0.15700000524520874" blue="0.23899999260902405" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="OrderInvoiceForAdminCollectionViewCell" customModule="GustoBreadAdminApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="507"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="507"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-sg-KeZ">
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="507"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aE2-Hw-l9Z">
+                                <rect key="frame" x="0.0" y="0.0" width="392" height="507"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BXN-qU-vq8">
+                                        <rect key="frame" x="0.0" y="0.0" width="392" height="401"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnx-GQ-7oS">
+                                                <rect key="frame" x="0.0" y="0.0" width="392" height="95"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OrderInvoice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHY-vB-198">
+                                                        <rect key="frame" x="25" y="52" width="278.5" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IVN001" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNU-Z9-lyE">
+                                                        <rect key="frame" x="303.5" y="52" width="63.5" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="ZHY-vB-198" firstAttribute="width" secondItem="jnx-GQ-7oS" secondAttribute="width" multiplier="0.71" id="muW-0R-ptk"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JNH-Xz-j4X">
+                                                <rect key="frame" x="0.0" y="95" width="392" height="51"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CustomerName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLx-NZ-8N9">
+                                                        <rect key="frame" x="25" y="8" width="157" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yamin" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeP-nt-sW0">
+                                                        <rect key="frame" x="182" y="8" width="185" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="wLx-NZ-8N9" firstAttribute="width" secondItem="JNH-Xz-j4X" secondAttribute="width" multiplier="0.4" id="VoT-0r-9fc"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yA-TB-7ha">
+                                                <rect key="frame" x="0.0" y="146" width="392" height="51"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhoneNumber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0Y-AT-VGZ">
+                                                        <rect key="frame" x="25" y="8" width="157" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09966633112" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6g-51-oSM">
+                                                        <rect key="frame" x="182" y="8" width="185" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="R0Y-AT-VGZ" firstAttribute="width" secondItem="1yA-TB-7ha" secondAttribute="width" multiplier="0.4" id="Oam-AX-Kb9"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEX-65-Tmy">
+                                                <rect key="frame" x="0.0" y="197" width="392" height="51"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ItemName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2J-AE-Xp3">
+                                                        <rect key="frame" x="25" y="8" width="157" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bread Rolls" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzW-o2-qdq">
+                                                        <rect key="frame" x="182" y="8" width="185" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="q2J-AE-Xp3" firstAttribute="width" secondItem="ZEX-65-Tmy" secondAttribute="width" multiplier="0.4" id="XBT-TM-OfI"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nI8-4R-KBN">
+                                                <rect key="frame" x="0.0" y="248" width="392" height="51"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ItemQuantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unH-se-Unq">
+                                                        <rect key="frame" x="25" y="8" width="157" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oa2-bl-SfP">
+                                                        <rect key="frame" x="182" y="8" width="185" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="unH-se-Unq" firstAttribute="width" secondItem="nI8-4R-KBN" secondAttribute="width" multiplier="0.4" id="OwM-z4-mxi"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10W-s2-sPi">
+                                                <rect key="frame" x="0.0" y="299" width="392" height="51"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ItemID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVL-AZ-6Gi">
+                                                        <rect key="frame" x="25" y="8" width="157" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C001" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSm-Xn-zgx">
+                                                        <rect key="frame" x="182" y="8" width="185" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="ZVL-AZ-6Gi" firstAttribute="width" secondItem="10W-s2-sPi" secondAttribute="width" multiplier="0.4" id="Ett-FU-oeJ"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T1Y-pz-Kug">
+                                                <rect key="frame" x="0.0" y="350" width="392" height="51"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loT-iS-VzJ">
+                                                        <rect key="frame" x="25" y="8" width="157" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3600 Kyats" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esK-IO-Ric">
+                                                        <rect key="frame" x="182" y="8" width="185" height="35"/>
+                                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Bold" family="Noto Sans Myanmar" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="loT-iS-VzJ" firstAttribute="width" secondItem="T1Y-pz-Kug" secondAttribute="width" multiplier="0.4" id="fCh-V7-Mdz"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="25" bottom="8" right="25"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="BXN-qU-vq8" secondAttribute="trailing" id="K7U-SK-sAL"/>
+                                    <constraint firstItem="BXN-qU-vq8" firstAttribute="centerX" secondItem="aE2-Hw-l9Z" secondAttribute="centerX" id="LgZ-KH-v1o"/>
+                                    <constraint firstItem="BXN-qU-vq8" firstAttribute="leading" secondItem="aE2-Hw-l9Z" secondAttribute="leading" id="UGl-oQ-32D"/>
+                                    <constraint firstItem="BXN-qU-vq8" firstAttribute="top" secondItem="aE2-Hw-l9Z" secondAttribute="top" id="Vgd-uC-an2"/>
+                                    <constraint firstAttribute="bottom" secondItem="BXN-qU-vq8" secondAttribute="bottom" id="g1d-2K-kXt"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aE2-Hw-l9Z" firstAttribute="top" secondItem="Iuj-sg-KeZ" secondAttribute="top" id="0Sq-NI-I1S"/>
+                            <constraint firstAttribute="bottom" secondItem="aE2-Hw-l9Z" secondAttribute="bottom" id="4cj-SN-fY3"/>
+                            <constraint firstAttribute="trailing" secondItem="aE2-Hw-l9Z" secondAttribute="trailing" id="JMi-dK-1g5"/>
+                            <constraint firstItem="aE2-Hw-l9Z" firstAttribute="leading" secondItem="Iuj-sg-KeZ" secondAttribute="leading" id="x9v-8O-RF7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Iuj-sg-KeZ" secondAttribute="trailing" id="7qf-em-Z52"/>
+                <constraint firstAttribute="bottom" secondItem="Iuj-sg-KeZ" secondAttribute="bottom" id="oEh-kW-diD"/>
+                <constraint firstItem="Iuj-sg-KeZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="piD-67-cwB"/>
+                <constraint firstItem="Iuj-sg-KeZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ryN-oR-2cB"/>
+            </constraints>
+            <size key="customSize" width="392" height="507"/>
+            <connections>
+                <outlet property="curveViewForOrderInvoice" destination="Iuj-sg-KeZ" id="iqL-zE-HRJ"/>
+            </connections>
+            <point key="canvasLocation" x="271.01449275362319" y="169.75446428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

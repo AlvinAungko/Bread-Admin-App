@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E101BFE72861A4AD006B194F /* AdminOrderInvoiceReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101BFE62861A4AD006B194F /* AdminOrderInvoiceReportViewController.swift */; };
+		E101BFEA2861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101BFE82861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.swift */; };
+		E101BFEB2861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E101BFE92861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.xib */; };
+		E1266243285896E000C471D5 /* StaffRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1266242285896E000C471D5 /* StaffRegistrationViewController.swift */; };
+		E12662452858970700C471D5 /* BranchInsertingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12662442858970700C471D5 /* BranchInsertingViewController.swift */; };
+		E126624828589DD600C471D5 /* RegisteredCustomers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126624628589DD600C471D5 /* RegisteredCustomers.swift */; };
+		E126624928589DD600C471D5 /* RegisteredCustomers.xib in Resources */ = {isa = PBXBuildFile; fileRef = E126624728589DD600C471D5 /* RegisteredCustomers.xib */; };
+		E126624C2858A91100C471D5 /* OrderInvoiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126624A2858A91100C471D5 /* OrderInvoiceCollectionViewCell.swift */; };
+		E126624D2858A91100C471D5 /* OrderInvoiceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E126624B2858A91100C471D5 /* OrderInvoiceCollectionViewCell.xib */; };
+		E1CC6E29285784DF00DC7DF3 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC6E28285784DF00DC7DF3 /* EditViewController.swift */; };
+		E1CC6E2B28579B9E00DC7DF3 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC6E2A28579B9E00DC7DF3 /* DeleteViewController.swift */; };
 		E1D02FB828561F4F00DBA691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FB728561F4F00DBA691 /* AppDelegate.swift */; };
 		E1D02FBA28561F4F00DBA691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FB928561F4F00DBA691 /* SceneDelegate.swift */; };
 		E1D02FBC28561F4F00DBA691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FBB28561F4F00DBA691 /* ViewController.swift */; };
@@ -14,9 +25,49 @@
 		E1D02FC228561F4F00DBA691 /* GustoBreadAdminApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FC028561F4F00DBA691 /* GustoBreadAdminApp.xcdatamodeld */; };
 		E1D02FC428561F5200DBA691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FC328561F5200DBA691 /* Assets.xcassets */; };
 		E1D02FC728561F5200DBA691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FC528561F5200DBA691 /* LaunchScreen.storyboard */; };
+		E1D02FD42856573C00DBA691 /* ItemEntryHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FD32856573C00DBA691 /* ItemEntryHomeViewController.swift */; };
+		E1D02FD6285661AD00DBA691 /* DataEntryForItemIDandItemNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FD5285661AD00DBA691 /* DataEntryForItemIDandItemNameViewController.swift */; };
+		E1D02FD82856764E00DBA691 /* CategoryDataEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FD72856764E00DBA691 /* CategoryDataEntryViewController.swift */; };
+		E1D02FDB28567FDE00DBA691 /* LocalRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FDA28567FDE00DBA691 /* LocalRepo.swift */; };
+		E1D02FDD285682CC00DBA691 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FDC285682CC00DBA691 /* SampleViewController.swift */; };
+		E1D02FE22856F20500DBA691 /* ItemSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FE02856F20500DBA691 /* ItemSelectionTableViewCell.swift */; };
+		E1D02FE32856F20500DBA691 /* ItemSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FE12856F20500DBA691 /* ItemSelectionTableViewCell.xib */; };
+		E1D02FEA2856F29200DBA691 /* ItemAddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FE82856F29200DBA691 /* ItemAddedCollectionViewCell.swift */; };
+		E1D02FEB2856F29200DBA691 /* ItemAddedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FE92856F29200DBA691 /* ItemAddedCollectionViewCell.xib */; };
+		E1D02FF22856F2F100DBA691 /* StaffListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FF02856F2F100DBA691 /* StaffListCollectionViewCell.swift */; };
+		E1D02FF32856F2F100DBA691 /* StaffListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FF12856F2F100DBA691 /* StaffListCollectionViewCell.xib */; };
+		E1D02FF62856F3C000DBA691 /* StaffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FF42856F3C000DBA691 /* StaffTableViewCell.swift */; };
+		E1D02FF72856F3C000DBA691 /* StaffTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FF52856F3C000DBA691 /* StaffTableViewCell.xib */; };
+		E1D02FFA2856F3CD00DBA691 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D02FF82856F3CD00DBA691 /* OrderTableViewCell.swift */; };
+		E1D02FFB2856F3CD00DBA691 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D02FF92856F3CD00DBA691 /* OrderTableViewCell.xib */; };
+		E1D65FA42858B3DF00B50442 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D65FA22858B3DF00B50442 /* CustomerTableViewCell.swift */; };
+		E1D65FA52858B3DF00B50442 /* CustomerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D65FA32858B3DF00B50442 /* CustomerTableViewCell.xib */; };
+		E1D65FA72858ED0A00B50442 /* CustomerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D65FA62858ED0A00B50442 /* CustomerDetailViewController.swift */; };
+		E1E74FD828575CC2008553EA /* SideMenuAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E74FD728575CC2008553EA /* SideMenuAdminViewController.swift */; };
+		E1E74FDA2859A4EC008553EA /* CustomerEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E74FD92859A4EC008553EA /* CustomerEditViewController.swift */; };
+		E1E74FDC2859ADB2008553EA /* OrderEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E74FDB2859ADB2008553EA /* OrderEditViewController.swift */; };
+		E1E74FDE2859D953008553EA /* ItemEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E74FDD2859D953008553EA /* ItemEditViewController.swift */; };
+		E1E74FE02859FA1E008553EA /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E74FDF2859FA1E008553EA /* OrderDetailViewController.swift */; };
+		E1E74FE3285A0B36008553EA /* AddedItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E74FE1285A0B36008553EA /* AddedItemCollectionViewCell.swift */; };
+		E1E74FE4285A0B36008553EA /* AddedItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E74FE2285A0B36008553EA /* AddedItemCollectionViewCell.xib */; };
+		EAF78ADE81E666B0CE65EBE7 /* Pods_GustoBreadAdminApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91499AC6FE1D6EC1945357E5 /* Pods_GustoBreadAdminApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10B2D614958FE02D6CCA5D5D /* Pods-GustoBreadAdminApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GustoBreadAdminApp.debug.xcconfig"; path = "Target Support Files/Pods-GustoBreadAdminApp/Pods-GustoBreadAdminApp.debug.xcconfig"; sourceTree = "<group>"; };
+		91499AC6FE1D6EC1945357E5 /* Pods_GustoBreadAdminApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GustoBreadAdminApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4C5CF6C35A6E5ADAB19893 /* Pods-GustoBreadAdminApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GustoBreadAdminApp.release.xcconfig"; path = "Target Support Files/Pods-GustoBreadAdminApp/Pods-GustoBreadAdminApp.release.xcconfig"; sourceTree = "<group>"; };
+		E101BFE62861A4AD006B194F /* AdminOrderInvoiceReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderInvoiceReportViewController.swift; sourceTree = "<group>"; };
+		E101BFE82861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInvoiceForAdminCollectionViewCell.swift; sourceTree = "<group>"; };
+		E101BFE92861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderInvoiceForAdminCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1266242285896E000C471D5 /* StaffRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffRegistrationViewController.swift; sourceTree = "<group>"; };
+		E12662442858970700C471D5 /* BranchInsertingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchInsertingViewController.swift; sourceTree = "<group>"; };
+		E126624628589DD600C471D5 /* RegisteredCustomers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredCustomers.swift; sourceTree = "<group>"; };
+		E126624728589DD600C471D5 /* RegisteredCustomers.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisteredCustomers.xib; sourceTree = "<group>"; };
+		E126624A2858A91100C471D5 /* OrderInvoiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInvoiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		E126624B2858A91100C471D5 /* OrderInvoiceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderInvoiceCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1CC6E28285784DF00DC7DF3 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		E1CC6E2A28579B9E00DC7DF3 /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
 		E1D02FB428561F4F00DBA691 /* GustoBreadAdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GustoBreadAdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D02FB728561F4F00DBA691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1D02FB928561F4F00DBA691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +77,31 @@
 		E1D02FC328561F5200DBA691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D02FC628561F5200DBA691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D02FC828561F5200DBA691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D02FD32856573C00DBA691 /* ItemEntryHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEntryHomeViewController.swift; sourceTree = "<group>"; };
+		E1D02FD5285661AD00DBA691 /* DataEntryForItemIDandItemNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntryForItemIDandItemNameViewController.swift; sourceTree = "<group>"; };
+		E1D02FD72856764E00DBA691 /* CategoryDataEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDataEntryViewController.swift; sourceTree = "<group>"; };
+		E1D02FDA28567FDE00DBA691 /* LocalRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRepo.swift; sourceTree = "<group>"; };
+		E1D02FDC285682CC00DBA691 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		E1D02FE02856F20500DBA691 /* ItemSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		E1D02FE12856F20500DBA691 /* ItemSelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		E1D02FE82856F29200DBA691 /* ItemAddedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddedCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1D02FE92856F29200DBA691 /* ItemAddedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemAddedCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1D02FF02856F2F100DBA691 /* StaffListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffListCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1D02FF12856F2F100DBA691 /* StaffListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaffListCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1D02FF42856F3C000DBA691 /* StaffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTableViewCell.swift; sourceTree = "<group>"; };
+		E1D02FF52856F3C000DBA691 /* StaffTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaffTableViewCell.xib; sourceTree = "<group>"; };
+		E1D02FF82856F3CD00DBA691 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		E1D02FF92856F3CD00DBA691 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		E1D65FA22858B3DF00B50442 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		E1D65FA32858B3DF00B50442 /* CustomerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerTableViewCell.xib; sourceTree = "<group>"; };
+		E1D65FA62858ED0A00B50442 /* CustomerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailViewController.swift; sourceTree = "<group>"; };
+		E1E74FD728575CC2008553EA /* SideMenuAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuAdminViewController.swift; sourceTree = "<group>"; };
+		E1E74FD92859A4EC008553EA /* CustomerEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerEditViewController.swift; sourceTree = "<group>"; };
+		E1E74FDB2859ADB2008553EA /* OrderEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEditViewController.swift; sourceTree = "<group>"; };
+		E1E74FDD2859D953008553EA /* ItemEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditViewController.swift; sourceTree = "<group>"; };
+		E1E74FDF2859FA1E008553EA /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		E1E74FE1285A0B36008553EA /* AddedItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1E74FE2285A0B36008553EA /* AddedItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddedItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +109,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF78ADE81E666B0CE65EBE7 /* Pods_GustoBreadAdminApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ABCD84857E93BA9C6C75FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91499AC6FE1D6EC1945357E5 /* Pods_GustoBreadAdminApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1D02FAB28561F4F00DBA691 = {
 			isa = PBXGroup;
 			children = (
 				E1D02FB628561F4F00DBA691 /* GustoBreadAdminApp */,
 				E1D02FB528561F4F00DBA691 /* Products */,
+				E9FB5A17701D09D7469176D0 /* Pods */,
+				4ABCD84857E93BA9C6C75FBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +145,157 @@
 		E1D02FB628561F4F00DBA691 /* GustoBreadAdminApp */ = {
 			isa = PBXGroup;
 			children = (
-				E1D02FB728561F4F00DBA691 /* AppDelegate.swift */,
-				E1D02FB928561F4F00DBA691 /* SceneDelegate.swift */,
-				E1D02FBB28561F4F00DBA691 /* ViewController.swift */,
-				E1D02FBD28561F4F00DBA691 /* Main.storyboard */,
-				E1D02FC328561F5200DBA691 /* Assets.xcassets */,
-				E1D02FC528561F5200DBA691 /* LaunchScreen.storyboard */,
+				E1D02FD928567FC400DBA691 /* Repository */,
+				E1D02FD22856222200DBA691 /* Cells */,
+				E1D02FCE285621FC00DBA691 /* Delegate */,
+				E1D02FCF2856220500DBA691 /* Controller */,
+				E1D02FD02856220B00DBA691 /* StoryBoard */,
+				E1D02FD12856221400DBA691 /* Resources */,
 				E1D02FC828561F5200DBA691 /* Info.plist */,
 				E1D02FC028561F4F00DBA691 /* GustoBreadAdminApp.xcdatamodeld */,
 			);
 			path = GustoBreadAdminApp;
+			sourceTree = "<group>";
+		};
+		E1D02FCE285621FC00DBA691 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FB728561F4F00DBA691 /* AppDelegate.swift */,
+				E1D02FB928561F4F00DBA691 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		E1D02FCF2856220500DBA691 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FBB28561F4F00DBA691 /* ViewController.swift */,
+				E1D02FD32856573C00DBA691 /* ItemEntryHomeViewController.swift */,
+				E1D02FD5285661AD00DBA691 /* DataEntryForItemIDandItemNameViewController.swift */,
+				E1D02FD72856764E00DBA691 /* CategoryDataEntryViewController.swift */,
+				E1D02FDC285682CC00DBA691 /* SampleViewController.swift */,
+				E1E74FD728575CC2008553EA /* SideMenuAdminViewController.swift */,
+				E1CC6E28285784DF00DC7DF3 /* EditViewController.swift */,
+				E1CC6E2A28579B9E00DC7DF3 /* DeleteViewController.swift */,
+				E1266242285896E000C471D5 /* StaffRegistrationViewController.swift */,
+				E12662442858970700C471D5 /* BranchInsertingViewController.swift */,
+				E1D65FA62858ED0A00B50442 /* CustomerDetailViewController.swift */,
+				E1E74FDB2859ADB2008553EA /* OrderEditViewController.swift */,
+				E1E74FD92859A4EC008553EA /* CustomerEditViewController.swift */,
+				E1E74FDD2859D953008553EA /* ItemEditViewController.swift */,
+				E1E74FDF2859FA1E008553EA /* OrderDetailViewController.swift */,
+				E101BFE62861A4AD006B194F /* AdminOrderInvoiceReportViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1D02FD02856220B00DBA691 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FC528561F5200DBA691 /* LaunchScreen.storyboard */,
+				E1D02FBD28561F4F00DBA691 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		E1D02FD12856221400DBA691 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FC328561F5200DBA691 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1D02FD22856222200DBA691 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FDF2856F1BB00DBA691 /* CollectionView */,
+				E1D02FDE2856F1B400DBA691 /* TableView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E1D02FD928567FC400DBA691 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FDA28567FDE00DBA691 /* LocalRepo.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E1D02FDE2856F1B400DBA691 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FE42856F20C00DBA691 /* Swift */,
+				E1D02FE52856F21500DBA691 /* Xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		E1D02FDF2856F1BB00DBA691 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FE72856F22C00DBA691 /* Xib */,
+				E1D02FE62856F22500DBA691 /* Swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		E1D02FE42856F20C00DBA691 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FE02856F20500DBA691 /* ItemSelectionTableViewCell.swift */,
+				E1D02FF82856F3CD00DBA691 /* OrderTableViewCell.swift */,
+				E1D02FF42856F3C000DBA691 /* StaffTableViewCell.swift */,
+				E1D65FA22858B3DF00B50442 /* CustomerTableViewCell.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		E1D02FE52856F21500DBA691 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				E1D65FA32858B3DF00B50442 /* CustomerTableViewCell.xib */,
+				E1D02FF92856F3CD00DBA691 /* OrderTableViewCell.xib */,
+				E1D02FF52856F3C000DBA691 /* StaffTableViewCell.xib */,
+				E1D02FE12856F20500DBA691 /* ItemSelectionTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		E1D02FE62856F22500DBA691 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E101BFE82861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.swift */,
+				E1E74FE1285A0B36008553EA /* AddedItemCollectionViewCell.swift */,
+				E126624A2858A91100C471D5 /* OrderInvoiceCollectionViewCell.swift */,
+				E1D02FF02856F2F100DBA691 /* StaffListCollectionViewCell.swift */,
+				E1D02FE82856F29200DBA691 /* ItemAddedCollectionViewCell.swift */,
+				E126624628589DD600C471D5 /* RegisteredCustomers.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		E1D02FE72856F22C00DBA691 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				E1D02FE92856F29200DBA691 /* ItemAddedCollectionViewCell.xib */,
+				E1D02FF12856F2F100DBA691 /* StaffListCollectionViewCell.xib */,
+				E126624728589DD600C471D5 /* RegisteredCustomers.xib */,
+				E126624B2858A91100C471D5 /* OrderInvoiceCollectionViewCell.xib */,
+				E1E74FE2285A0B36008553EA /* AddedItemCollectionViewCell.xib */,
+				E101BFE92861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		E9FB5A17701D09D7469176D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B2D614958FE02D6CCA5D5D /* Pods-GustoBreadAdminApp.debug.xcconfig */,
+				AB4C5CF6C35A6E5ADAB19893 /* Pods-GustoBreadAdminApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1D02FCB28561F5200DBA691 /* Build configuration list for PBXNativeTarget "GustoBreadAdminApp" */;
 			buildPhases = (
+				8560FC3652A8111E385C1E3C /* [CP] Check Pods Manifest.lock */,
 				E1D02FB028561F4F00DBA691 /* Sources */,
 				E1D02FB128561F4F00DBA691 /* Frameworks */,
 				E1D02FB228561F4F00DBA691 /* Resources */,
+				6DD24F33A745F729EA96E5F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +358,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D02FF32856F2F100DBA691 /* StaffListCollectionViewCell.xib in Resources */,
+				E101BFEB2861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.xib in Resources */,
 				E1D02FC728561F5200DBA691 /* LaunchScreen.storyboard in Resources */,
+				E1D02FFB2856F3CD00DBA691 /* OrderTableViewCell.xib in Resources */,
+				E1D02FEB2856F29200DBA691 /* ItemAddedCollectionViewCell.xib in Resources */,
+				E1E74FE4285A0B36008553EA /* AddedItemCollectionViewCell.xib in Resources */,
 				E1D02FC428561F5200DBA691 /* Assets.xcassets in Resources */,
 				E1D02FBF28561F4F00DBA691 /* Main.storyboard in Resources */,
+				E1D02FF72856F3C000DBA691 /* StaffTableViewCell.xib in Resources */,
+				E1D65FA52858B3DF00B50442 /* CustomerTableViewCell.xib in Resources */,
+				E126624D2858A91100C471D5 /* OrderInvoiceCollectionViewCell.xib in Resources */,
+				E126624928589DD600C471D5 /* RegisteredCustomers.xib in Resources */,
+				E1D02FE32856F20500DBA691 /* ItemSelectionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DD24F33A745F729EA96E5F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GustoBreadAdminApp/Pods-GustoBreadAdminApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GustoBreadAdminApp/Pods-GustoBreadAdminApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GustoBreadAdminApp/Pods-GustoBreadAdminApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8560FC3652A8111E385C1E3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GustoBreadAdminApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1D02FB028561F4F00DBA691 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D02FF22856F2F100DBA691 /* StaffListCollectionViewCell.swift in Sources */,
+				E1E74FDC2859ADB2008553EA /* OrderEditViewController.swift in Sources */,
+				E1D02FD82856764E00DBA691 /* CategoryDataEntryViewController.swift in Sources */,
 				E1D02FBC28561F4F00DBA691 /* ViewController.swift in Sources */,
+				E126624828589DD600C471D5 /* RegisteredCustomers.swift in Sources */,
+				E126624C2858A91100C471D5 /* OrderInvoiceCollectionViewCell.swift in Sources */,
+				E1D02FD6285661AD00DBA691 /* DataEntryForItemIDandItemNameViewController.swift in Sources */,
+				E1D02FDB28567FDE00DBA691 /* LocalRepo.swift in Sources */,
 				E1D02FC228561F4F00DBA691 /* GustoBreadAdminApp.xcdatamodeld in Sources */,
+				E1E74FE02859FA1E008553EA /* OrderDetailViewController.swift in Sources */,
+				E101BFE72861A4AD006B194F /* AdminOrderInvoiceReportViewController.swift in Sources */,
+				E101BFEA2861A816006B194F /* OrderInvoiceForAdminCollectionViewCell.swift in Sources */,
+				E1D02FFA2856F3CD00DBA691 /* OrderTableViewCell.swift in Sources */,
+				E1D65FA72858ED0A00B50442 /* CustomerDetailViewController.swift in Sources */,
+				E1E74FE3285A0B36008553EA /* AddedItemCollectionViewCell.swift in Sources */,
+				E1D02FEA2856F29200DBA691 /* ItemAddedCollectionViewCell.swift in Sources */,
+				E1CC6E29285784DF00DC7DF3 /* EditViewController.swift in Sources */,
 				E1D02FB828561F4F00DBA691 /* AppDelegate.swift in Sources */,
+				E1E74FD828575CC2008553EA /* SideMenuAdminViewController.swift in Sources */,
+				E1D02FD42856573C00DBA691 /* ItemEntryHomeViewController.swift in Sources */,
+				E1266243285896E000C471D5 /* StaffRegistrationViewController.swift in Sources */,
+				E1E74FDE2859D953008553EA /* ItemEditViewController.swift in Sources */,
 				E1D02FBA28561F4F00DBA691 /* SceneDelegate.swift in Sources */,
+				E1D02FE22856F20500DBA691 /* ItemSelectionTableViewCell.swift in Sources */,
+				E1D65FA42858B3DF00B50442 /* CustomerTableViewCell.swift in Sources */,
+				E1D02FF62856F3C000DBA691 /* StaffTableViewCell.swift in Sources */,
+				E1E74FDA2859A4EC008553EA /* CustomerEditViewController.swift in Sources */,
+				E12662452858970700C471D5 /* BranchInsertingViewController.swift in Sources */,
+				E1CC6E2B28579B9E00DC7DF3 /* DeleteViewController.swift in Sources */,
+				E1D02FDD285682CC00DBA691 /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +594,7 @@
 		};
 		E1D02FCC28561F5200DBA691 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B2D614958FE02D6CCA5D5D /* Pods-GustoBreadAdminApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +608,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +624,7 @@
 		};
 		E1D02FCD28561F5200DBA691 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4C5CF6C35A6E5ADAB19893 /* Pods-GustoBreadAdminApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,6 +638,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
